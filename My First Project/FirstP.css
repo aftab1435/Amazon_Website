@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+    
+    /* background-image:url(./laptop.jpeg) ; */
+    /* background-size: cover; */
+    
+    button{
+        background-color: blue;
+    }
+
+   }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.b{
+    background-color: blueviolet;
+    
+}
+
+.c{
+    background-color: burlywood;
+}
+
+.d{
+    background-color:rgb(255,54,105);
+}
+
+.al{
+    color: brown;
+    background-color: blanchedalmond;
+}
+
+.la{
+    color: black;
+    background-color: chartreuse;
+/* }
+
+
+
+#aa{
+    background-color: chartreuse;
+}
+
+#zz{
+    text-transform: capitalize;
+}
+
+.ad{
+    background: blueviolet;
+}
+
+
+

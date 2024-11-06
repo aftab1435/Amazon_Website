@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.fixed-nav-bar{
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    z-index: 9999;
+}
+
+   #navbar{
+    background: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+   } 
+   ul {
+    display: flex;
+    justify-content: space-around;
+   }
+    
+    #navbar ul a{
+    margin-right: 150px;
+    text-decoration: none;
+}
+ul a li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;    
+    margin: 10px;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+button{
+    background-color: #f0882f;
+}
+button:hover{
+    background-color: aliceblue;
+    color: #f0882f;
+    transition: all,2s;
+}
+.img{
+    width: 100%;    
+    margin-top: 20px;
+
+}
+.sea{
+    margin-top:10px ;
+
+}
+
+.img img{
+    margin-top: 30px;
+    width: 100%;
+}
+.div{
+    background-color: rgb(222, 253, 189);
+    margin-top: 20px;
+    display: flex;
+
+}  
+.deals{
+  height: 0; 
+  color: rgb(35, 36, 35);
+}  
+
+
+.align{
+    text-align: center;
+}
+.div img{
+    width: 100;
+    margin-left: 30px;
+    margin-top: 60px; 
+    margin-bottom: 20px; 
+    box-shadow: 6px  6px 6px 6px rgb(140, 142, 142);
+}
+.over{
+    transition: all 0.5s;
+}
+.over:hover{
+    
+    transform: scale(1.1);
+}
+.content{
+    height: 28rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    background-color: white;
+    margin-top: 25px;
+    
+
+}
+
+.box{
+    height: 20rem;
+    width: 17rem;
+    background-color:  white;
+    transition: all 0.5s;
+    margin-top: 10px
+   
+}
+.box:hover{
+    transform: scale(1.1);
+}    
+    
+
+.pic{
+    margin-top:10px ;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    width: 240px;
+    height: 270px;
+   
+}
+.content img{
+    box-shadow: 6px  6px 6px 6px rgb(140, 142, 142);
+    border-radius: 10px;
+}
+.map{
+    text-align:center;
+}
+.heading{
+    margin-top: 15px;
+    
+}
+.btt{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(3, 3, 51);
+    
+   
+}
+span{
+    color: rgb(201, 199, 196);
+    text-align: justify;
+        
+}
+
+.footer{
+    background-color: #070724f5;
+    height: 350px;
+    display: flex;
+   
+}
+.foot{
+    
+    line-height: 1.5;
+    color: rgb(201, 199, 196);
+    display: block;
+    margin-left: 180px;
+    margin-top: 80px;
+
+}
+.foot_logo{
+    height: 150px;
+    background-color: #0e0724f0;
+    
+}
+.logo{
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 45%;
+    
+    
+}
+#aftab{
+   margin-left: 43%;
+   color: rgb(201, 199, 196);
+}
+.color{
+    color: green;
+}
+.color1{
+    color: red;
+}
+
